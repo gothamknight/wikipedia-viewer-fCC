@@ -1,0 +1,97 @@
+* {
+  /*border: 1px dotted orange;*/
+  box-sizing: border-box;
+}
+a, a:visited, a:link, a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-image: url("https://res.cloudinary.com/dtwopb4fp/image/upload/e_brightness:-80,o_70/v1499131975/globe_dqokw7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-width: 52px;
+}
+#title {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  margin: auto;
+  margin-top: 40vh;
+  margin-bottom: 15px;
+}
+#input-div {
+  width: 50px;
+  border: white 3px solid;
+  border-radius: 20px;
+  background-color: transparent;
+  margin: auto;
+  text-align: center;
+  display: none;
+  height: 32px;
+}
+input {
+  background-color: transparent;
+  color: white;
+  border: none;
+  width: 10px;
+  font-weight: 100;
+  font-size: 14px;
+  outline: none;
+}
+.fa-search {
+  height: 32px;
+  transition: all 0.5s ease;
+  color: white;
+}
+.fa-times, #view-random-p {
+  transition: all 0.5s ease;
+  color: white;
+}
+.fa-search:hover, #view-random-p:hover{
+  color: rgb(0, 77, 0);
+  cursor: pointer;
+  cursor: hand;
+}
+.fa-times:hover {
+  color: rgb(153, 0, 0);
+  cursor: pointer;
+  cursor: hand;
+}
+#random-page-div {
+  margin-top: 15px;
+}
+.each-list-div {
+  color: white;
+  width: 70%;
+  background-color: rgba(0,0,0,0.2);
+  padding: 10px 20px 5px 20px;
+  margin: 20px auto;
+  transition: all 0.5s ease;
+}
+.each-list-div:hover{
+  background-color: rgba(0,0,0,0.5);
+  
+}
+.heading {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.summary {
+  font-size: 1rem;
+  font-weight: 100;
+}
+h3 {
+  color:rgb(153, 0, 0);
+  text-align:center;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: auto;
+  margin-top: 15px;
+  background-color:  rgba(255,255,255,0.3);
+  padding: 5px;
+  width: 70%;
+}
