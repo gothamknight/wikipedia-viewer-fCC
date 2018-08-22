@@ -1,3 +1,3 @@
 # wikipedia-viewer-fCC
 
-https://user-ap.github.io/wikipedia-viewer-fCC/
+https://iso1048.github.io/wikipedia-viewer-fCC/
